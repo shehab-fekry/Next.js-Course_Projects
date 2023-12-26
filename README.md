@@ -12,7 +12,7 @@
 
 <hr>
 
-### Server Side Rendering (SSR): =====> getServerSideProps(context) {}
+### Server Side Rendering (SSR) =====> getServerSideProps(context) {}
 #### features:
 + doesn't pre-render pages in build-time.
 + pre-render pages after deployment (on the fly) with each request sent to the server.
