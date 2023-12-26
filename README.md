@@ -9,6 +9,7 @@
 + pages that's need to be rendered instantly.
 + mainly serve home pages for (SEO) direct traffic and important-data pages. 
 + pages that's better to have pre-rendered with it's data.
+
 <hr>
 
 ### Server Side Rendering (SSR): =====> getServerSideProps(context) {}
@@ -21,3 +22,15 @@
 + if the page have user-specific or post-login data (Ex: user-profile or dashboard).
 + with dynamic pages, that doesn't provide (few known-paths) due to it's multi-params [...slugs], and 
   page data isn't important anyways.
+
+<hr>
+
+### Client Side Fetching =====> useEffect(), componentDidMount()
+#### features:
++ data-fetching starts after the page reaches the frontend already.
++ no data exist in the DOM initial mount (bad for SEO).
++ shows the user a loading-effects while data is being fetched.
+
+#### when to use:
++ if page data change frequently (Ex: stock market).
++ if any external API data is needed. 
