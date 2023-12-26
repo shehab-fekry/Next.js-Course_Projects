@@ -18,7 +18,7 @@
 + pre-render pages after deployment (on the fly) with each request sent to the server.
 
 #### when to use:
-+ if page data mostly depend on requests.
++ pages with data mostly depend on requests.
 + if the page have user-specific or post-login data (Ex: user-profile or dashboard).
 + with dynamic pages, that doesn't provide (few known-paths) due to it's multi-params [...slugs], and 
   page data isn't important anyways.
