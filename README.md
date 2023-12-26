@@ -10,6 +10,7 @@
 + mainly serve home pages for (SEO) direct traffic and important-data pages. 
 + pages that's better to have pre-rendered with it's data.
 <hr>
+
 ### Server Side Rendering (SSR): =====> getServerSideProps(context) {}
 #### features:
 + doesn't pre-render pages in build-time.
